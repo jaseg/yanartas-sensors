@@ -1,0 +1,4 @@
+*.lck
+*.bak
+.history
+_restore_backup*
