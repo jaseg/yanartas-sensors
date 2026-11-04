@@ -983,7 +983,13 @@
       "/TDR_1N": [
         "diffpair"
       ],
+      "/TDR_1N_CPL": [
+        "diffpair"
+      ],
       "/TDR_1P": [
+        "diffpair"
+      ],
+      "/TDR_1P_CPL": [
         "diffpair"
       ],
       "/TDR_20N": [
@@ -1001,7 +1007,13 @@
       "/TDR_2N": [
         "diffpair"
       ],
+      "/TDR_2N_CPL": [
+        "diffpair"
+      ],
       "/TDR_2P": [
+        "diffpair"
+      ],
+      "/TDR_2P_CPL": [
         "diffpair"
       ],
       "/TERM_S_10N": [
@@ -1055,10 +1067,10 @@
       "Net-(R10-Pad2)": [
         "diffpair"
       ],
-      "Net-(R13-Pad2)": [
+      "Net-(R100-Pad1)": [
         "diffpair"
       ],
-      "Net-(R14-Pad2)": [
+      "Net-(R101-Pad1)": [
         "diffpair"
       ],
       "Net-(R7-Pad2)": [
@@ -1230,7 +1242,7 @@
         "uuid": "674ed4d1-dd9a-4005-87ec-46c2a5667653"
       }
     ],
-    "used_designators": "#PWR1-33,#PWR35,#PWR37-109,C1-26,C35-65,C70,D1-11,H2-5,J1-5,R1-32,R39-91,T12-15,U1-7,U9-17,Y1-2",
+    "used_designators": "#PWR1-33,#PWR35,#PWR37-113,C1-26,C35-65,C69-76,D1-11,H2-5,J1-5,R1-32,R39-91,R94-106,T12-15,U1-7,U9-17,Y1-2",
     "variants": []
   },
   "sheets": [
