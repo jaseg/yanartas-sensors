@@ -1,0 +1,2688 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="dia"
+   viewBox="0 0 1728.4572 908.77984"
+   aria-label="Block diagram of the TDR front end"
+   width="457.32101mm"
+   height="240.448mm"
+   version="1.1"
+   sodipodi:docname="pillowbox-tdr-signal-flow.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs390" />
+  <sodipodi:namedview
+     id="namedview390"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.90124765"
+     inkscape:cx="683.49692"
+     inkscape:cy="264.63314"
+     inkscape:window-width="3263"
+     inkscape:window-height="1712"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="dia"
+     showguides="true"
+     inkscape:document-units="mm">
+    <sodipodi:guide
+       position="494.85163,387.77957"
+       orientation="1,0"
+       id="guide393"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-34.136473,432.32845"
+       orientation="1,0"
+       id="guide396"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <rect
+     x="1565.1207"
+     y="67.814293"
+     width="130"
+     height="262"
+     rx="3"
+     style="fill:#eef2f3;fill-opacity:1;stroke:#15222b;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect228"
+     ry="3" />
+  <rect
+     x="1565.1207"
+     y="407.8143"
+     width="130"
+     height="262"
+     rx="3"
+     style="fill:#eef2f3;fill-opacity:1;stroke:#15222b;stroke-width:1.6px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect228-3"
+     ry="3" />
+  <path
+     d="m 1005.1207,184.81429 h 10 v -55 h 165"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path136" />
+  <path
+     d="m 1005.1207,204.81429 h 22 v -45 h 153"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path138" />
+  <path
+     d="m 142.35376,179.81429 h 98.76692"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path36"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 142.35376,329.81429 h 98.76692"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path44"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 142.35376,419.81429 h 98.76692"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path52"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 142.35376,569.81429 h 98.76692"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path60"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 630.70564,270.81429 h 94.41504"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path86"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 630.31335,510.81429 h 94.80733"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path107"
+     sodipodi:nodetypes="cc" />
+  <rect
+     x="32.989178"
+     y="801.81427"
+     width="1664.1366"
+     height="58"
+     rx="3.0000002"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect2"
+     ry="3" />
+  <rect
+     x="1389.4641"
+     y="811.81427"
+     width="121.31335"
+     height="38"
+     rx="2.9999998"
+     style="fill:#eef2f3;stroke:#c3cfd6;stroke-width:0.999997px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect25"
+     ry="3" />
+  <path
+     d="m 90.984214,609.81429 v 202"
+     style="fill:none;stroke:#5a6b76;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3px, 4px"
+     id="path2" />
+  <text
+     x="524.20825"
+     y="835.17676"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text2">U14 STM32G474RBTx</text>
+  <path
+     d="m 320.12068,608.70472 v 202"
+     style="fill:none;stroke:#5a6b76;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3px, 4px"
+     id="path4" />
+  <path
+     d="M 1245.1207,329.81429 V 808.86562"
+     style="fill:none;stroke:#5a6b76;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3px, 4px"
+     id="path6"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 1239.4964,753.31429 10,-7"
+     style="fill:#000000;stroke:#5a6b76;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     id="path7" />
+  <text
+     x="1251.4495"
+     y="749.45251"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text7">3</text>
+  <path
+     d="M 1450.1207,334.81429 V 808.26612"
+     style="fill:none;stroke:#5a6b76;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3px, 4px"
+     id="path8"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 1444.9194,753.31429 10,-7"
+     style="fill:#5a6b76;fill-opacity:1;stroke:#5a6b76;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     id="path9" />
+  <text
+     x="1457.3411"
+     y="749.65894"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text9">2</text>
+  <rect
+     x="39.92635"
+     y="811.81427"
+     width="120"
+     height="38"
+     rx="3"
+     style="fill:#eef2f3;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect9"
+     ry="3" />
+  <text
+     x="99.926353"
+     y="827.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text10">PA2–4·PG10·PB12–14</text>
+  <text
+     x="99.926353"
+     y="841.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text11">FPGA link</text>
+  <rect
+     x="283.12067"
+     y="811.81427"
+     width="74"
+     height="38"
+     rx="3"
+     style="fill:#eef2f3;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect11"
+     ry="3" />
+  <text
+     x="320.12067"
+     y="827.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text12">PB5 = H</text>
+  <text
+     x="320.12067"
+     y="841.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text13">REDRV_HPD</text>
+  <rect
+     x="918.12067"
+     y="811.81427"
+     width="74"
+     height="38"
+     rx="3"
+     style="fill:#eef2f3;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect15"
+     ry="3" />
+  <path
+     d="M 955.12068,439.81429 V 808.76296"
+     style="fill:none;stroke:#5a6b76;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3px, 4px"
+     id="path5"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="955.12067"
+     y="827.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text16">PB2 = L</text>
+  <text
+     x="955.12067"
+     y="841.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text17">SEL_L1</text>
+  <rect
+     x="1160.0438"
+     y="811.81427"
+     width="170.15385"
+     height="38"
+     rx="3"
+     style="fill:#eef2f3;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect18"
+     ry="3" />
+  <g
+     id="g399"
+     transform="translate(32.826104,29.814289)">
+    <g
+       id="g396">
+      <text
+         x="1160"
+         y="798"
+         text-anchor="middle"
+         style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="text18">PB8 = L</text>
+      <text
+         x="1160"
+         y="812"
+         text-anchor="middle"
+         style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="text19">SEL_L2_2</text>
+    </g>
+    <g
+       id="g397"
+       transform="translate(-0.4180301)">
+      <text
+         x="1212.6901"
+         y="798"
+         text-anchor="middle"
+         style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="text20">PB7 = H</text>
+      <text
+         x="1212.6901"
+         y="812"
+         text-anchor="middle"
+         style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="text21">SEL_L2_1</text>
+    </g>
+    <g
+       id="g398"
+       transform="translate(-18.00199)">
+      <text
+         x="1282.6901"
+         y="798"
+         text-anchor="middle"
+         style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="text22">PB9 = H</text>
+      <text
+         x="1282.6901"
+         y="812"
+         text-anchor="middle"
+         style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="text23">SEL_L2_0</text>
+    </g>
+  </g>
+  <text
+     x="1423.0769"
+     y="827.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text24">PB4 = L</text>
+  <text
+     x="1423.0769"
+     y="841.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text25">SEL_L3_1</text>
+  <text
+     x="1477.7775"
+     y="827.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text26">PB3 = L</text>
+  <text
+     x="1477.7775"
+     y="841.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text27">SEL_L3_0</text>
+  <rect
+     x="30.984213"
+     y="139.81429"
+     width="120"
+     height="470"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect29"
+     ry="3" />
+  <text
+     x="30.984213"
+     y="129.81429"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text30">U5 GW1NZ-LV1QN48C6</text>
+  <rect
+     x="275.12067"
+     y="139.81429"
+     width="90"
+     height="470"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect30"
+     ry="3" />
+  <text
+     x="275.12067"
+     y="129.81429"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text31">U2 PI3HDX12311</text>
+  <text
+     x="320.12067"
+     y="604.8656"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text32">HPD</text>
+  <text
+     x="142.98421"
+     y="182.61328"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text36">IOR2A/2B · 9/10</text>
+  <path
+     d="m 241.12068,171.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#c46a12;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path37" />
+  <path
+     d="m 247.12068,179.81429 h 60"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path38" />
+  <path
+     d="m 258.62068,184.81429 7,-10"
+     style="fill:#000000;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path39" />
+  <text
+     x="265.12067"
+     y="173.81429"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text39">2</text>
+  <path
+     d="m 333.12068,179.81429 h 60.0638"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path41"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 394.12068,171.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#c46a12;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path43" />
+  <text
+     x="142.98421"
+     y="332.61331"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text44">IOR10A/10B · 20/13</text>
+  <path
+     d="m 241.12068,321.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#c46a12;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path45" />
+  <path
+     d="m 247.12068,329.81429 h 60"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path46" />
+  <path
+     d="m 258.62068,334.81429 7,-10"
+     style="fill:#000000;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path47" />
+  <text
+     x="265.12067"
+     y="323.8143"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text47">2</text>
+  <path
+     d="m 333.12068,329.81429 h 61"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path49" />
+  <path
+     d="m 394.12068,321.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#c46a12;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path51" />
+  <text
+     x="142.98421"
+     y="422.61331"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text52">IOR3A/3B · 11/34</text>
+  <path
+     d="m 241.12068,411.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#2563c4;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path53" />
+  <path
+     d="m 247.12068,419.81429 h 60"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path54" />
+  <path
+     d="m 258.62068,424.81429 7,-10"
+     style="fill:#000000;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path55" />
+  <text
+     x="265.12067"
+     y="413.8143"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text55">2</text>
+  <path
+     d="m 333.12068,419.81429 h 61"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path57" />
+  <path
+     d="m 394.12068,411.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#2563c4;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path59" />
+  <text
+     x="142.98421"
+     y="572.61328"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text60">IOR8A/8B · 24/23</text>
+  <path
+     d="m 241.12068,561.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#2563c4;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path61" />
+  <path
+     d="m 247.12068,569.81429 h 60"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path62" />
+  <path
+     d="m 258.62068,574.81429 7,-10"
+     style="fill:#000000;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="path63" />
+  <text
+     x="265.12067"
+     y="563.81427"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text63">2</text>
+  <path
+     d="m 333.12068,569.81429 h 61"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path65" />
+  <path
+     d="m 394.12068,561.81429 v 16 m 6,-16 v 16"
+     style="fill:none;stroke:#2563c4;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path67" />
+  <rect
+     x="425.12067"
+     y="141.81429"
+     width="410"
+     height="222"
+     rx="3"
+     style="fill:none;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:5px, 4px"
+     id="rect68"
+     ry="3" />
+  <text
+     x="433.12067"
+     y="155.81429"
+     style="font-weight:600;font-size:11.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text69">TDR channel 1</text>
+  <path
+     d="M 400.91819,179.81429 H 512.47444"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path69"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="431.12067"
+     y="173.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text71">STIM_1P/N</text>
+  <path
+     d="m 538.52348,179.81429 h 44"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path71" />
+  <circle
+     cx="560.12067"
+     cy="179.81429"
+     r="2.8"
+     style="fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle72" />
+  <text
+     x="560.12067"
+     y="163.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text72">R7–R12 16</text>
+  <path
+     d="m 606.12068,179.81429 h 299"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path72" />
+  <text
+     x="665.12067"
+     y="173.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text73">TDR_1P/N</text>
+  <path
+     d="m 560.12068,179.81429 v 14"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path74" />
+  <path
+     d="m 560.12068,217.81429 v 32"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path75" />
+  <text
+     x="553.12067"
+     y="236.81429"
+     text-anchor="end"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#c46a12;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text77">SPL_HS_1P/N</text>
+  <rect
+     x="490.70563"
+     y="249.81429"
+     width="140"
+     height="42"
+     rx="3"
+     style="fill:#eef2f3;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect77"
+     ry="3" />
+  <text
+     x="560.39935"
+     y="274.8143"
+     text-anchor="middle"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text78">D1–D4 BAT15-04W</text>
+  <path
+     d="m 400.12068,329.81429 h 159.85166 v -38"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path78"
+     sodipodi:nodetypes="ccc" />
+  <text
+     x="431.12067"
+     y="323.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text80">STROBE_1P/N</text>
+  <circle
+     cx="559.97235"
+     cy="329.8143"
+     r="2.8"
+     style="fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle81" />
+  <text
+     x="628.66315"
+     y="349.79904"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text85">VTT</text>
+  <text
+     x="643.12067"
+     y="264.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text87">SPL_LS_1P/N</text>
+  <path
+     d="m 725.12068,250.81429 34,20 -34,20 z"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path88" />
+  <text
+     x="742.12067"
+     y="305.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text89">U1A/B OPA4354</text>
+  <rect
+     x="425.12067"
+     y="381.8143"
+     width="410"
+     height="222"
+     rx="3"
+     style="fill:none;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:5px, 4px"
+     id="rect89"
+     ry="3" />
+  <text
+     x="433.12067"
+     y="395.8143"
+     style="font-weight:600;font-size:11.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text90">TDR channel 2</text>
+  <path
+     d="M 400.12068,419.81429 H 515.73789"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path90"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="431.12067"
+     y="413.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text92">STIM_2P/N</text>
+  <path
+     d="m 536.12068,419.81429 h 44"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path92" />
+  <circle
+     cx="560.12067"
+     cy="419.8143"
+     r="2.8"
+     style="fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle93" />
+  <text
+     x="560.12067"
+     y="403.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text93">R13–R16, R21, R22 16</text>
+  <path
+     d="m 606.12068,419.81429 h 299"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path93" />
+  <text
+     x="665.12067"
+     y="413.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text94">TDR_2P/N</text>
+  <path
+     d="m 560.12068,419.81429 v 14"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path95" />
+  <path
+     d="m 560.12068,457.81429 v 32"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path96" />
+  <text
+     x="553.12067"
+     y="476.8143"
+     text-anchor="end"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#2563c4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text98">SPL_HS_2P/N</text>
+  <rect
+     x="490.70563"
+     y="489.8143"
+     width="140"
+     height="42"
+     rx="3"
+     style="fill:#eef2f3;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect98"
+     ry="3" />
+  <text
+     x="560.70563"
+     y="514.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text99">D5–D8 BAT15-04W</text>
+  <path
+     d="m 400.12068,569.81429 h 159.85166 v -38"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6px, 4px"
+     id="path99"
+     sodipodi:nodetypes="ccc" />
+  <text
+     x="431.12067"
+     y="563.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text101">STROBE_2P/N</text>
+  <text
+     x="643.12067"
+     y="504.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text108">SPL_LS_2P/N</text>
+  <path
+     d="m 725.12068,490.81429 34,20 -34,20 z"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path109" />
+  <text
+     x="742.12067"
+     y="545.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text110">U1C/D OPA4354</text>
+  <path
+     d="m 759.12068,270.81429 h 116.09717 v 141 c 4.41828,0 7.99999,3.58172 7.99999,8 0,4.41828 -3.58171,8 -7.99999,8 v 384"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path111"
+     sodipodi:nodetypes="cccscc" />
+  <path
+     d="m 759.12068,510.81429 h 81.04153 v 301"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path112"
+     sodipodi:nodetypes="ccc" />
+  <text
+     x="-777.81427"
+     y="886.16797"
+     transform="rotate(-90)"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text115">SAMPLE_ADC1P/N</text>
+  <text
+     x="-777.81427"
+     y="834.74463"
+     transform="rotate(-90)"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text116">SAMPLE_ADC2P/N</text>
+  <text
+     x="905.12067"
+     y="139.81429"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text117">U10 TMUXHS4212</text>
+  <rect
+     x="905.12067"
+     y="149.81429"
+     width="100"
+     height="290"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect116"
+     ry="3" />
+  <text
+     x="910.12067"
+     y="174.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text118">A0</text>
+  <text
+     x="910.12067"
+     y="414.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text119">A1</text>
+  <text
+     x="1000.1207"
+     y="179.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text120">B0</text>
+  <text
+     x="1000.1207"
+     y="199.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text121">B1</text>
+  <text
+     x="1000.1207"
+     y="379.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text122">C0</text>
+  <text
+     x="1000.1207"
+     y="404.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text123">C1</text>
+  <path
+     d="m 917.12068,179.81429 c 38,0 38,205 76.00002,205"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path123" />
+  <path
+     d="m 917.12068,179.81429 c 38,0 38,5 76.00002,5"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path124" />
+  <circle
+     cx="917.12067"
+     cy="179.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle124" />
+  <path
+     d="m 917.12068,419.81429 c 38,0 38,-10 76.00002,-10"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path125" />
+  <path
+     d="m 917.12068,419.81429 c 38,0 38,-215 76.00002,-215"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path126" />
+  <circle
+     cx="917.12067"
+     cy="419.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle126" />
+  <circle
+     cx="993.12073"
+     cy="184.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle127" />
+  <circle
+     cx="993.12073"
+     cy="204.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle128" />
+  <circle
+     cx="993.12073"
+     cy="384.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle129" />
+  <circle
+     cx="993.12073"
+     cy="409.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle130" />
+  <text
+     x="955.21069"
+     y="433.59888"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text130">SEL</text>
+  <text
+     x="1180.1207"
+     y="73.814285"
+     style="font-weight:600;font-size:11.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text133">Bank 0 · selected by PB2</text>
+  <text
+     x="1180.1207"
+     y="91.814285"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text134">U4 TMUXHS4446</text>
+  <text
+     x="1390.1207"
+     y="67.814285"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text135">U3 PI3WVR41310</text>
+  <text
+     x="1565.1207"
+     y="61.814289"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text136">J1</text>
+  <text
+     x="1050.1207"
+     y="123.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text138">TDR_10P/N</text>
+  <text
+     x="1050.1207"
+     y="153.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text140">TDR_20P/N</text>
+  <path
+     d="m 1093.1207,214.81429 h 87"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path140" />
+  <text
+     x="1098.1207"
+     y="209.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text142">TERM_Z_20P/N</text>
+  <path
+     d="m 1093.1207,239.81429 h 87"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path143" />
+  <text
+     x="1098.1207"
+     y="234.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text145">TERM_Z_10P/N</text>
+  <path
+     d="m 1093.1207,274.81429 h 87"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path146" />
+  <text
+     x="1098.1207"
+     y="269.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text149">TERM_S_20P/N</text>
+  <path
+     d="m 1093.1207,299.81429 h 87"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path150" />
+  <text
+     x="1098.1207"
+     y="294.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text153">TERM_S_10P/N</text>
+  <rect
+     x="1180.1207"
+     y="99.814285"
+     width="130"
+     height="230"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect154"
+     ry="3" />
+  <text
+     x="1184.1207"
+     y="124.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text155">DP0</text>
+  <text
+     x="1184.1207"
+     y="154.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text156">DP1</text>
+  <text
+     x="1184.1207"
+     y="209.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text157">DP2</text>
+  <text
+     x="1184.1207"
+     y="234.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text158">DP3</text>
+  <text
+     x="1184.1207"
+     y="269.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text159">SSTX</text>
+  <text
+     x="1184.1207"
+     y="294.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text160">SSRX</text>
+  <text
+     x="1306.1207"
+     y="154.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text161">CTX1</text>
+  <text
+     x="1306.1207"
+     y="184.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text162">CTX2</text>
+  <text
+     x="1306.1207"
+     y="214.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text163">CRX1</text>
+  <text
+     x="1306.1207"
+     y="244.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text164">CRX2</text>
+  <path
+     d="m 1196.1207,129.81429 c 49,0 49,120 98,120"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path164" />
+  <path
+     d="m 1196.1207,159.81429 c 49,0 49,30 98,30"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path165" />
+  <path
+     d="m 1196.1207,214.81429 c 49,0 49,-55 98,-55"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path166" />
+  <path
+     d="m 1196.1207,239.81429 c 49,0 49,-20 98,-20"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path167" />
+  <path
+     d="m 1196.1207,274.81429 c 49,0 49,-115 98,-115"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path168" />
+  <path
+     d="m 1196.1207,274.81429 c 49,0 49,-85 98,-85"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path169" />
+  <path
+     d="m 1196.1207,299.81429 c 49,0 49,-80 98,-80"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path170" />
+  <path
+     d="m 1196.1207,299.81429 c 49,0 49,-50 98,-50"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path171" />
+  <path
+     d="m 1196.1207,129.81429 c 49,0 49,90 98,90"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path172" />
+  <path
+     d="m 1196.1207,159.81429 c 49,0 49,0 98,0"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path173" />
+  <path
+     d="m 1196.1207,214.81429 c 49,0 49,-25 98,-25"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path174" />
+  <path
+     d="m 1196.1207,239.81429 c 49,0 49,10 98,10"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path175" />
+  <circle
+     cx="1196.1207"
+     cy="129.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle175" />
+  <circle
+     cx="1196.1207"
+     cy="159.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle176" />
+  <circle
+     cx="1196.1207"
+     cy="214.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle177" />
+  <circle
+     cx="1196.1207"
+     cy="239.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle178" />
+  <circle
+     cx="1196.1207"
+     cy="274.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle179" />
+  <circle
+     cx="1196.1207"
+     cy="299.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle180" />
+  <circle
+     cx="1294.1207"
+     cy="159.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle181" />
+  <circle
+     cx="1294.1207"
+     cy="189.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle182" />
+  <circle
+     cx="1294.1207"
+     cy="219.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle183" />
+  <circle
+     cx="1294.1207"
+     cy="249.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle184" />
+  <text
+     x="1270.1183"
+     y="323.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text184">CONF[2:0]</text>
+  <path
+     d="m 1310.1207,159.81429 h 80"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path186" />
+  <text
+     x="1332.1207"
+     y="154.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text188">SEND_20P/N</text>
+  <path
+     d="m 1310.1207,189.81429 h 80"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path188" />
+  <text
+     x="1332.1207"
+     y="184.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text190">RET_20P/N</text>
+  <path
+     d="m 1310.1207,219.81429 h 80"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path190" />
+  <text
+     x="1332.1207"
+     y="214.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text192">SEND_10P/N</text>
+  <path
+     d="m 1310.1207,249.81429 h 80"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path192" />
+  <text
+     x="1332.1207"
+     y="244.81429"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text194">RET_10P/N</text>
+  <rect
+     x="1390.1207"
+     y="74.814285"
+     width="120"
+     height="260"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect194"
+     ry="3" />
+  <text
+     x="1394.1207"
+     y="154.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text195">D0</text>
+  <text
+     x="1394.1207"
+     y="184.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text196">D1</text>
+  <text
+     x="1394.1207"
+     y="214.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text197">D2</text>
+  <text
+     x="1394.1207"
+     y="244.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text198">D3</text>
+  <text
+     x="1504.1207"
+     y="85.814285"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text199">A</text>
+  <text
+     x="1504.1207"
+     y="175.81429"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text200">B</text>
+  <path
+     d="m 1406.1207,159.81429 c 44,0 44,22 88,22"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path200" />
+  <path
+     d="m 1406.1207,189.81429 c 44,0 44,8 88,8"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path201" />
+  <path
+     d="m 1406.1207,219.81429 c 44,0 44,-6 88,-6"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path202" />
+  <path
+     d="m 1406.1207,249.81429 c 44,0 44,-20 88,-20"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path203" />
+  <text
+     x="1504.1207"
+     y="265.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text203">C</text>
+  <path
+     d="m 1406.1207,159.81429 c 44,0 44,112 88,112"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path204" />
+  <path
+     d="m 1406.1207,189.81429 c 44,0 44,98 88,98"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path205" />
+  <path
+     d="m 1406.1207,219.81429 c 44,0 44,84 88,84"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path206" />
+  <path
+     d="m 1406.1207,249.81429 c 44,0 44,70 88,70"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path207" />
+  <path
+     d="m 1406.1207,159.81429 c 44,0 44,-68.000001 88,-68.000001"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path208" />
+  <path
+     d="m 1406.1207,189.81429 c 44,0 44,-82 88,-82"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path209" />
+  <path
+     d="m 1406.1207,219.81429 c 44,0 44,-96 88,-96"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path210" />
+  <path
+     d="m 1406.1207,249.81429 c 44,0 44,-110 88,-110"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path211" />
+  <circle
+     cx="1406.1207"
+     cy="159.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle211" />
+  <circle
+     cx="1406.1207"
+     cy="189.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle212" />
+  <circle
+     cx="1406.1207"
+     cy="219.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle213" />
+  <circle
+     cx="1406.1207"
+     cy="249.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle214" />
+  <circle
+     cx="1494.1207"
+     cy="91.814285"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle215" />
+  <circle
+     cx="1494.1207"
+     cy="107.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle216" />
+  <circle
+     cx="1494.1207"
+     cy="123.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle217" />
+  <circle
+     cx="1494.1207"
+     cy="139.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle218" />
+  <circle
+     cx="1494.1207"
+     cy="181.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle219" />
+  <circle
+     cx="1494.1207"
+     cy="197.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle220" />
+  <circle
+     cx="1494.1207"
+     cy="213.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle221" />
+  <circle
+     cx="1494.1207"
+     cy="229.81429"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle222" />
+  <circle
+     cx="1494.1207"
+     cy="271.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle223" />
+  <circle
+     cx="1494.1207"
+     cy="287.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle224" />
+  <circle
+     cx="1494.1207"
+     cy="303.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle225" />
+  <circle
+     cx="1494.1207"
+     cy="319.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle226" />
+  <text
+     x="1472.5308"
+     y="329.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text226">SEL[1:0]</text>
+  <text
+     x="1571.1207"
+     y="79.814285"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text229">Port A · pins 2–10</text>
+  <path
+     d="m 1510.1207,91.814289 h 60"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path229" />
+  <rect
+     x="1570.1207"
+     y="85.314285"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect230"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="94.814285"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text231">SEND_200P/N 2/3</text>
+  <path
+     d="m 1510.1207,107.81429 h 60"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path231" />
+  <rect
+     x="1570.1207"
+     y="101.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect232"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="110.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text233">RET_200P/N 4/5</text>
+  <path
+     d="m 1510.1207,123.81429 h 60"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path233" />
+  <rect
+     x="1570.1207"
+     y="117.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect234"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="126.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text235">SEND_100P/N 7/8</text>
+  <path
+     d="m 1510.1207,139.81429 h 60"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path235" />
+  <rect
+     x="1570.1207"
+     y="133.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect236"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="142.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text237">RET_100P/N 9/10</text>
+  <text
+     x="1571.1207"
+     y="169.81429"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text238">Port B · pins 12–20</text>
+  <path
+     d="m 1510.1207,181.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path238" />
+  <rect
+     x="1570.1207"
+     y="175.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect239"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="184.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text240">SEND_201P/N 12/13</text>
+  <path
+     d="m 1510.1207,197.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path240" />
+  <rect
+     x="1570.1207"
+     y="191.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect241"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="200.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text242">RET_201P/N 14/15</text>
+  <path
+     d="m 1510.1207,213.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path242" />
+  <rect
+     x="1570.1207"
+     y="207.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect243"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="216.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text244">SEND_101P/N 17/18</text>
+  <path
+     d="m 1510.1207,229.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path244" />
+  <rect
+     x="1570.1207"
+     y="223.31429"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect245"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="232.81429"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text246">RET_101P/N 19/20</text>
+  <text
+     x="1571.1207"
+     y="259.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text247">Port C · pins 22–30</text>
+  <path
+     d="m 1510.1207,271.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path247" />
+  <rect
+     x="1570.1207"
+     y="265.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect248"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="274.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text249">SEND_202P/N 22/23</text>
+  <path
+     d="m 1510.1207,287.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path249" />
+  <rect
+     x="1570.1207"
+     y="281.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect250"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="290.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text251">RET_202P/N 24/25</text>
+  <path
+     d="m 1510.1207,303.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path251" />
+  <rect
+     x="1570.1207"
+     y="297.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect252"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="306.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text253">SEND_102P/N 27/28</text>
+  <path
+     d="m 1510.1207,319.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path253" />
+  <rect
+     x="1570.1207"
+     y="313.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect254"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="322.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text255">RET_102P/N 29/30</text>
+  <text
+     x="1180.1207"
+     y="413.8143"
+     style="font-weight:600;font-size:11.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text256">Bank 1</text>
+  <text
+     x="1180.1207"
+     y="431.8143"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text257">U12</text>
+  <text
+     x="1390.1207"
+     y="407.8143"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text258">U9</text>
+  <text
+     x="1565.1207"
+     y="401.8143"
+     style="font-weight:600;font-size:12.5px;font-family:'IBM Plex Sans Condensed', 'Arial Narrow', system-ui, sans-serif;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text259">J2</text>
+  <path
+     d="m 1005.1207,384.81429 h 22 v 85 h 153"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path259" />
+  <text
+     x="1050.1207"
+     y="463.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text261">TDR_11P/N</text>
+  <path
+     d="m 1005.1207,409.81429 h 10 v 90 h 165"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path261" />
+  <text
+     x="1050.1207"
+     y="493.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text263">TDR_21P/N</text>
+  <path
+     d="m 1093.1207,554.81429 h 87"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path263" />
+  <text
+     x="1098.1207"
+     y="549.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text265">TERM_Z_21P/N</text>
+  <path
+     d="m 1093.1207,579.81429 h 87"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path266" />
+  <text
+     x="1098.1207"
+     y="574.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text268">TERM_Z_11P/N</text>
+  <path
+     d="m 1093.1207,614.81429 h 87"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path269" />
+  <text
+     x="1098.1207"
+     y="609.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text272">TERM_S_21P/N</text>
+  <path
+     d="m 1093.1207,639.81429 h 87"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path273" />
+  <text
+     x="1098.1207"
+     y="634.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text276">TERM_S_11P/N</text>
+  <rect
+     x="1180.1207"
+     y="439.8143"
+     width="130"
+     height="230"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect277"
+     ry="3" />
+  <text
+     x="1184.1207"
+     y="464.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text278">DP0</text>
+  <text
+     x="1184.1207"
+     y="494.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text279">DP1</text>
+  <text
+     x="1184.1207"
+     y="549.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text280">DP2</text>
+  <text
+     x="1184.1207"
+     y="574.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text281">DP3</text>
+  <text
+     x="1184.1207"
+     y="609.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text282">SSTX</text>
+  <text
+     x="1184.1207"
+     y="634.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text283">SSRX</text>
+  <text
+     x="1306.1207"
+     y="494.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text284">CTX1</text>
+  <text
+     x="1306.1207"
+     y="524.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text285">CTX2</text>
+  <text
+     x="1306.1207"
+     y="554.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text286">CRX1</text>
+  <text
+     x="1306.1207"
+     y="584.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text287">CRX2</text>
+  <path
+     d="m 1196.1207,469.81429 c 49,0 49,120 98,120"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path287" />
+  <path
+     d="m 1196.1207,499.81429 c 49,0 49,30 98,30"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path288" />
+  <path
+     d="m 1196.1207,554.81429 c 49,0 49,-55 98,-55"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path289" />
+  <path
+     d="m 1196.1207,579.81429 c 49,0 49,-20 98,-20"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path290" />
+  <path
+     d="m 1196.1207,614.81429 c 49,0 49,-115 98,-115"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path291" />
+  <path
+     d="m 1196.1207,614.81429 c 49,0 49,-85 98,-85"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path292" />
+  <path
+     d="m 1196.1207,639.81429 c 49,0 49,-80 98,-80"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path293" />
+  <path
+     d="m 1196.1207,639.81429 c 49,0 49,-50 98,-50"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path294" />
+  <path
+     d="m 1196.1207,469.81429 c 49,0 49,90 98,90"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path295" />
+  <path
+     d="m 1196.1207,499.81429 c 49,0 49,0 98,0"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path296" />
+  <path
+     d="m 1196.1207,554.81429 c 49,0 49,-25 98,-25"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path297" />
+  <path
+     d="m 1196.1207,579.81429 c 49,0 49,10 98,10"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path298" />
+  <circle
+     cx="1196.1207"
+     cy="469.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle298" />
+  <circle
+     cx="1196.1207"
+     cy="499.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle299" />
+  <circle
+     cx="1196.1207"
+     cy="554.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle300" />
+  <circle
+     cx="1196.1207"
+     cy="579.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle301" />
+  <circle
+     cx="1196.1207"
+     cy="614.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle302" />
+  <circle
+     cx="1196.1207"
+     cy="639.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle303" />
+  <circle
+     cx="1294.1207"
+     cy="499.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle304" />
+  <circle
+     cx="1294.1207"
+     cy="529.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle305" />
+  <circle
+     cx="1294.1207"
+     cy="559.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle306" />
+  <circle
+     cx="1294.1207"
+     cy="589.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle307" />
+  <text
+     x="1270.1183"
+     y="663.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text307">CONF[2:0]</text>
+  <path
+     d="m 1310.1207,499.81429 h 80"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path309" />
+  <text
+     x="1332.1207"
+     y="494.8143"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text311">SEND_21P/N</text>
+  <path
+     d="m 1310.1207,529.81429 h 80"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path311" />
+  <text
+     x="1332.1207"
+     y="524.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text313">RET_21P/N</text>
+  <path
+     d="m 1310.1207,559.81429 h 80"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path313" />
+  <text
+     x="1332.1207"
+     y="554.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text315">SEND_11P/N</text>
+  <path
+     d="m 1310.1207,589.81429 h 80"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path315" />
+  <text
+     x="1332.1207"
+     y="584.81427"
+     style="font-weight:500;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#c46a12;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text317">RET_11P/N</text>
+  <rect
+     x="1390.1207"
+     y="414.8143"
+     width="120"
+     height="260"
+     rx="3"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect317"
+     ry="3" />
+  <text
+     x="1394.1207"
+     y="494.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text318">D0</text>
+  <text
+     x="1394.1207"
+     y="524.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text319">D1</text>
+  <text
+     x="1394.1207"
+     y="554.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text320">D2</text>
+  <text
+     x="1394.1207"
+     y="584.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text321">D3</text>
+  <text
+     x="1504.1207"
+     y="425.8143"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text322">A</text>
+  <text
+     x="1504.1207"
+     y="515.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text323">B</text>
+  <path
+     d="m 1406.1207,499.81429 c 44,0 44,22 88,22"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path323" />
+  <path
+     d="m 1406.1207,529.81429 c 44,0 44,8 88,8"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path324" />
+  <path
+     d="m 1406.1207,559.81429 c 44,0 44,-6 88,-6"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path325" />
+  <path
+     d="m 1406.1207,589.81429 c 44,0 44,-20 88,-20"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path326" />
+  <text
+     x="1504.1207"
+     y="605.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text326">C</text>
+  <path
+     d="m 1406.1207,499.81429 c 44,0 44,112 88,112"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path327" />
+  <path
+     d="m 1406.1207,529.81429 c 44,0 44,98 88,98"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path328" />
+  <path
+     d="m 1406.1207,559.81429 c 44,0 44,84 88,84"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path329" />
+  <path
+     d="m 1406.1207,589.81429 c 44,0 44,70 88,70"
+     style="fill:none;stroke:#9fb0ba;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4px, 3px"
+     id="path330" />
+  <path
+     d="m 1406.1207,499.81429 c 44,0 44,-68 88,-68"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path331" />
+  <path
+     d="m 1406.1207,529.81429 c 44,0 44,-82 88,-82"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path332" />
+  <path
+     d="m 1406.1207,559.81429 c 44,0 44,-96 88,-96"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path333" />
+  <path
+     d="m 1406.1207,589.81429 c 44,0 44,-110 88,-110"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path334" />
+  <circle
+     cx="1406.1207"
+     cy="499.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle334" />
+  <circle
+     cx="1406.1207"
+     cy="529.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle335" />
+  <circle
+     cx="1406.1207"
+     cy="559.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle336" />
+  <circle
+     cx="1406.1207"
+     cy="589.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle337" />
+  <circle
+     cx="1494.1207"
+     cy="431.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle338" />
+  <circle
+     cx="1494.1207"
+     cy="447.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle339" />
+  <circle
+     cx="1494.1207"
+     cy="463.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle340" />
+  <circle
+     cx="1494.1207"
+     cy="479.8143"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle341" />
+  <circle
+     cx="1494.1207"
+     cy="521.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle342" />
+  <circle
+     cx="1494.1207"
+     cy="537.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle343" />
+  <circle
+     cx="1494.1207"
+     cy="553.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle344" />
+  <circle
+     cx="1494.1207"
+     cy="569.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle345" />
+  <circle
+     cx="1494.1207"
+     cy="611.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle346" />
+  <circle
+     cx="1494.1207"
+     cy="627.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle347" />
+  <circle
+     cx="1494.1207"
+     cy="643.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle348" />
+  <circle
+     cx="1494.1207"
+     cy="659.81427"
+     r="2.8"
+     style="fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle349" />
+  <text
+     x="1472.5308"
+     y="669.81427"
+     text-anchor="end"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:end;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text349">SEL[1:0]</text>
+  <text
+     x="1571.1207"
+     y="419.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text352">Port A · pins 2–10</text>
+  <path
+     d="m 1510.1207,431.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path352" />
+  <rect
+     x="1570.1207"
+     y="425.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect353"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="434.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text354">SEND_210P/N 2/3</text>
+  <path
+     d="m 1510.1207,447.81429 h 60"
+     style="fill:none;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path354" />
+  <rect
+     x="1570.1207"
+     y="441.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect355"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="450.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text356">RET_210P/N 4/5</text>
+  <path
+     d="m 1510.1207,463.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path356" />
+  <rect
+     x="1570.1207"
+     y="457.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect357"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="466.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text358">SEND_110P/N 7/8</text>
+  <path
+     d="m 1510.1207,479.81429 h 60"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.6, 6.6;stroke-dashoffset:0;stroke-opacity:1"
+     id="path358" />
+  <rect
+     x="1570.1207"
+     y="473.3143"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect359"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="482.8143"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text360">RET_110P/N 9/10</text>
+  <text
+     x="1571.1207"
+     y="509.8143"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text361">Port B · pins 12–20</text>
+  <path
+     d="m 1510.1207,521.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path361" />
+  <rect
+     x="1570.1207"
+     y="515.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect362"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="524.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text363">SEND_211P/N 12/13</text>
+  <path
+     d="m 1510.1207,537.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path363" />
+  <rect
+     x="1570.1207"
+     y="531.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect364"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="540.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text365">RET_211P/N 14/15</text>
+  <path
+     d="m 1510.1207,553.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path365" />
+  <rect
+     x="1570.1207"
+     y="547.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect366"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="556.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text367">SEND_111P/N 17/18</text>
+  <path
+     d="m 1510.1207,569.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path367" />
+  <rect
+     x="1570.1207"
+     y="563.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect368"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="572.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text369">RET_111P/N 19/20</text>
+  <text
+     x="1571.1207"
+     y="599.81427"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text370">Port C · pins 22–30</text>
+  <path
+     d="m 1510.1207,611.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path370" />
+  <rect
+     x="1570.1207"
+     y="605.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect371"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="614.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text372">SEND_212P/N 22/23</text>
+  <path
+     d="m 1510.1207,627.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path372" />
+  <rect
+     x="1570.1207"
+     y="621.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect373"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="630.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text374">RET_212P/N 24/25</text>
+  <path
+     d="m 1510.1207,643.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path374" />
+  <rect
+     x="1570.1207"
+     y="637.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect375"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="646.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text376">SEND_112P/N 27/28</text>
+  <path
+     d="m 1510.1207,659.81429 h 60"
+     style="fill:none;stroke:#c3cfd6;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path376" />
+  <rect
+     x="1570.1207"
+     y="653.31427"
+     width="120"
+     height="13"
+     rx="3"
+     style="fill:#ffffff;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect377"
+     ry="3" />
+  <text
+     x="1630.1207"
+     y="662.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text378">RET_112P/N 29/30</text>
+  <rect
+     x="512.12067"
+     y="414.8143"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92"
+     ry="1.2837169" />
+  <rect
+     x="432.8143"
+     y="-565.12067"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92-5"
+     ry="1.2837169"
+     transform="rotate(90)" />
+  <rect
+     x="582.12067"
+     y="414.8143"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92-6"
+     ry="1.2837169" />
+  <rect
+     x="512.12067"
+     y="174.81429"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92-56"
+     ry="1.2837169" />
+  <rect
+     x="191.81429"
+     y="-565.12067"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92-5-2"
+     ry="1.2837169"
+     transform="rotate(90)" />
+  <rect
+     x="582.12067"
+     y="174.81429"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92-6-9"
+     ry="1.2837169" />
+  <g
+     id="g392"
+     transform="translate(122.81269,13.462728)">
+    <path
+       d="m 503,316 h 11 v 9.44521"
+       style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path83"
+       sodipodi:nodetypes="ccc" />
+    <path
+       d="m 508,326 h 12"
+       style="fill:none;stroke:#c46a12;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path85" />
+    <g
+       id="g390">
+      <path
+         d="m 462,310 h 38 a 3,6 0 0 1 0,12 h -38"
+         style="fill:#ffffff;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path82" />
+      <ellipse
+         cx="462"
+         cy="316"
+         rx="3"
+         ry="6"
+         style="fill:#ffffff;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="ellipse82" />
+    </g>
+  </g>
+  <path
+     d="m 307.12068,164.81429 26,15 -26,15 z"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
+     id="path40" />
+  <path
+     d="m 307.12068,314.81429 26,15 -26,15 z"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
+     id="path48" />
+  <path
+     d="m 307.12068,404.81429 26,15 -26,15 z"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
+     id="path56" />
+  <path
+     d="m 307.12068,554.81429 26,15 -26,15 z"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none"
+     id="path64" />
+  <text
+     x="593.71161"
+     y="332.32327"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text392">100ps</text>
+  <path
+     d="m 560.56704,329.81429 h 23.73061"
+     style="fill:none;stroke:#c46a12;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+     id="path81"
+     sodipodi:nodetypes="cc" />
+  <rect
+     x="184.65076"
+     y="174.81429"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect92-56-9"
+     ry="1.2837169" />
+  <rect
+     x="184.65076"
+     y="324.8143"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect393"
+     ry="1.2837169" />
+  <rect
+     x="184.65076"
+     y="414.8143"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect394"
+     ry="1.2837169" />
+  <rect
+     x="184.65076"
+     y="564.81427"
+     width="26"
+     height="10"
+     rx="1.2837169"
+     style="fill:#ffffff;stroke:#15222b;stroke-width:1.4px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect395"
+     ry="1.2837169" />
+  <circle
+     cx="560.03284"
+     cy="569.72382"
+     r="2.8"
+     style="fill:#2563c4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="circle81-2" />
+  <text
+     x="628.72363"
+     y="589.70856"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text85-8">VTT</text>
+  <g
+     id="g392-9"
+     transform="translate(122.87316,253.37228)">
+    <path
+       d="m 503,316 h 11 v 9.44521"
+       style="fill:#3664b1;fill-opacity:0.0627451;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path83-7"
+       sodipodi:nodetypes="ccc" />
+    <path
+       d="m 508,326 h 12"
+       style="fill:#3664b1;fill-opacity:0.0627451;stroke:#2563c4;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path85-3" />
+    <g
+       id="g390-6">
+      <path
+         d="m 462,310 h 38 a 3,6 0 0 1 0,12 h -38"
+         style="fill:#ffffff;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="path82-1" />
+      <ellipse
+         cx="462"
+         cy="316"
+         rx="3"
+         ry="6"
+         style="fill:#ffffff;stroke:#15222b;stroke-width:1.2px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+         id="ellipse82-2" />
+    </g>
+  </g>
+  <text
+     x="593.77209"
+     y="572.23279"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text392-9">100ps</text>
+  <path
+     d="m 560.62751,569.72384 h 23.73061"
+     style="fill:#3664b1;fill-opacity:0.0627451;stroke:#2563c4;stroke-width:2.2px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="path81-3"
+     sodipodi:nodetypes="cc" />
+  <rect
+     x="811.12067"
+     y="811.81427"
+     width="92"
+     height="38"
+     rx="3"
+     style="fill:#eef2f3;stroke:#c3cfd6;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="rect13"
+     ry="3" />
+  <text
+     x="857.12067"
+     y="827.81427"
+     text-anchor="middle"
+     style="font-weight:600;font-size:9.5px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#15222b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text14">PA6/7 · PA0/1</text>
+  <text
+     x="857.12067"
+     y="841.81427"
+     text-anchor="middle"
+     style="font-weight:400;font-size:9px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:middle;fill:#5a6b76;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text15">ADC2 · ADC1</text>
+  <g
+     id="g400"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,33.298718)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="658.5"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect266"
+       ry="3.8570278" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,670.87653 h 42.1638"
+       id="path395" />
+    <rect
+       x="996.35748"
+       y="665.87653"
+       width="26"
+       height="10"
+       rx="1.6503233"
+       style="fill:#ffffff;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect395-7"
+       ry="1.6504439" />
+  </g>
+  <g
+     id="g401"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,71.183658)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="686.9328"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect396"
+       ry="3.8570278" />
+    <path
+       d="m 1006.3575,690.9328 v 16 m 6,-16 v 16"
+       style="fill:none;fill-opacity:1;stroke:#15222b;stroke-width:2.57126px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path61-4" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,698.9328 h 18.1764 m 6.2413,0 h 17.7461"
+       id="path396"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <path
+     d="m 85.878454,753.31429 9.99999,-7"
+     style="fill:#000000;stroke:#5a6b76;stroke-width:1.2px;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     id="path7-0" />
+  <text
+     x="97.831497"
+     y="749.45251"
+     style="font-weight:400;font-size:8px;font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;text-anchor:start;fill:#5a6b76;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+     id="text7-3">3</text>
+  <g
+     id="g403"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,96.183658)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="686.9328"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect402"
+       ry="3.8570278" />
+    <path
+       d="m 1006.3575,690.9328 v 16 m 6,-16 v 16"
+       style="fill:none;fill-opacity:1;stroke:#15222b;stroke-width:2.57126px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path402" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,698.9328 h 18.1764 m 6.2413,0 h 17.7461"
+       id="path403"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     id="g404"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,58.298718)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="658.5"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect403"
+       ry="3.8570278" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,670.87653 h 42.1638"
+       id="path404" />
+    <rect
+       x="996.35748"
+       y="665.87653"
+       width="26"
+       height="10"
+       rx="1.6503233"
+       style="fill:#ffffff;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect404"
+       ry="1.6504439" />
+  </g>
+  <g
+     id="g406"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,-306.70128)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="658.5"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect405"
+       ry="3.8570278" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,670.87653 h 42.1638"
+       id="path405" />
+    <rect
+       x="996.35748"
+       y="665.87653"
+       width="26"
+       height="10"
+       rx="1.6503233"
+       style="fill:#ffffff;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect406"
+       ry="1.6504439" />
+  </g>
+  <g
+     id="g408"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,-268.81634)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="686.9328"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect407"
+       ry="3.8570278" />
+    <path
+       d="m 1006.3575,690.9328 v 16 m 6,-16 v 16"
+       style="fill:none;fill-opacity:1;stroke:#15222b;stroke-width:2.57126px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path407" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,698.9328 h 18.1764 m 6.2413,0 h 17.7461"
+       id="path408"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     id="g410"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,-243.81634)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="686.9328"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect408"
+       ry="3.8570278" />
+    <path
+       d="m 1006.3575,690.9328 v 16 m 6,-16 v 16"
+       style="fill:none;fill-opacity:1;stroke:#15222b;stroke-width:2.57126px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="path409" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,698.9328 h 18.1764 m 6.2413,0 h 17.7461"
+       id="path410"
+       sodipodi:nodetypes="cccc" />
+  </g>
+  <g
+     id="g411"
+     transform="matrix(0.77785785,0,0,0.777801,287.30875,-281.70128)"
+     style="stroke-width:1.28563">
+    <rect
+       x="982.77771"
+       y="658.5"
+       width="53.159592"
+       height="24"
+       rx="3.8567455"
+       style="fill:#ffffff;stroke:#5a6b76;stroke-width:1.28563px;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
+       id="rect410"
+       ry="3.8570278" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 988.2756,670.87653 h 42.1638"
+       id="path411" />
+    <rect
+       x="996.35748"
+       y="665.87653"
+       width="26"
+       height="10"
+       rx="1.6503233"
+       style="fill:#ffffff;stroke:#15222b;stroke-width:1.79988px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       id="rect411"
+       ry="1.6504439" />
+  </g>
+</svg>
