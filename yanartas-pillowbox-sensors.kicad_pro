@@ -609,7 +609,9 @@
   "libraries": {
     "pinned_design_block_libs": [],
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "components"
+    ]
   },
   "meta": {
     "filename": "yanartas-pillowbox-sensors.kicad_pro",
@@ -1139,31 +1141,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1176,13 +1178,61 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mass",
+          "name": "mass",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LSCS",
+          "name": "LSCS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_scope": "reference",
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -1242,7 +1292,7 @@
         "uuid": "674ed4d1-dd9a-4005-87ec-46c2a5667653"
       }
     ],
-    "used_designators": "#PWR1-33,#PWR35,#PWR37-132,C1-26,C35-65,C69-88,D1-11,H2-5,J1-5,R1-32,R39-91,R94-118,T12-15,U1-7,U9-17,Y1-2",
+    "used_designators": "#PWR1-33,#PWR35,#PWR37-134,C1-26,C35-65,C69-104,D1-14,H2-5,J1-6,L4-5,R1-32,R39-91,R94-129,T12-15,TR1,U1-7,U9-18,Y1-2",
     "variants": []
   },
   "sheets": [
