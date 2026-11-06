@@ -1292,7 +1292,7 @@
         "uuid": "674ed4d1-dd9a-4005-87ec-46c2a5667653"
       }
     ],
-    "used_designators": "#PWR1-33,#PWR35,#PWR37-134,C1-26,C35-65,C69-104,D1-14,H2-5,J1-6,L4-5,R1-32,R39-91,R94-129,T12-15,TR1,U1-7,U9-18,Y1-2",
+    "used_designators": "#PWR1-33,#PWR35,#PWR37-141,C1-26,C35-65,C69-114,D1-15,H2-5,J1-8,L4-7,Module1,R1-32,R39-91,R94-135,T12-15,TR1,U1-7,U9-18,Y1-2",
     "variants": []
   },
   "sheets": [
