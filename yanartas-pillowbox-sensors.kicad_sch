@@ -54668,7 +54668,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25762"
+		(property "LCSC" "C25859"
 			(at 359.41 542.29 0)
 			(hide yes)
 			(show_name no)
@@ -56950,7 +56950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 403.86 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -60143,7 +60143,7 @@
 				)
 			)
 		)
-		(property "LCSC" "NA"
+		(property "LCSC" "C35471229"
 			(at 642.62 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -61787,7 +61787,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C25117"
 			(at 156.21 430.53 90)
 			(hide yes)
 			(show_name no)
@@ -66745,7 +66745,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 383.54 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -68785,7 +68785,7 @@
 				)
 			)
 		)
-		(property "LSCS" "C408972"
+		(property "LCSC_Alt" "C408972"
 			(at 412.75 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -69013,7 +69013,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 383.54 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -70277,7 +70277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C25117"
 			(at 156.21 401.32 90)
 			(hide yes)
 			(show_name no)
@@ -73895,7 +73895,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25768"
+		(property "LCSC" "C43473"
 			(at 359.41 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -78276,17 +78276,6 @@
 				)
 			)
 		)
-		(property "LSCS" "C485149"
-			(at 412.75 556.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digikey" ""
 			(at 412.75 556.26 0)
 			(hide yes)
@@ -78957,7 +78946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 346.71 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -79779,7 +79768,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 483.87 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -80004,7 +79993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 346.71 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -84813,7 +84802,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 483.87 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -89418,7 +89407,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 347.98 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -92902,7 +92891,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 448.31 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -95621,17 +95610,6 @@
 				)
 			)
 		)
-		(property "LCSC`" "C2072094"
-			(at 505.46 561.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digikey" ""
 			(at 505.46 561.34 0)
 			(hide yes)
@@ -96310,7 +96288,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 347.98 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -97415,7 +97393,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C25117"
 			(at 156.21 416.56 90)
 			(hide yes)
 			(show_name no)
@@ -97694,7 +97672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 447.04 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -99311,7 +99289,7 @@
 				)
 			)
 		)
-		(property "LCSC" "NA"
+		(property "LCSC" "C35471229"
 			(at 642.62 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -102569,7 +102547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 504.19 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -105334,7 +105312,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4147"
+		(property "LCSC" "C270574"
 			(at 448.31 182.88 0)
 			(hide yes)
 			(show_name no)
