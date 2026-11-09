@@ -8153,7 +8153,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Gowin_FPGA:Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm"
+			(property "Footprint" "Gowin_FPGA:Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9933,7 +9933,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2.3x7.8mm"
+			(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2x7.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -11472,7 +11472,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HighSpeed_Interface:Texas_RET0040A_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
+			(property "Footprint" "Package_DFN_QFN:Texas_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -14697,7 +14697,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Power_Management:Toll_QFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+			(property "Footprint" "Power_Management:QFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -55823,7 +55823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2.3x7.8mm"
+		(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2x7.5mm"
 			(at 704.85 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -60099,7 +60099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HighSpeed_Interface:Texas_RET0040A_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
 			(at 642.62 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -88445,7 +88445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Gowin_FPGA:Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm"
+		(property "Footprint" "Gowin_FPGA:Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
 			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -94830,7 +94830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Power_Management:Toll_QFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+		(property "Footprint" "Power_Management:QFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
 			(at 330.2 530.86 0)
 			(hide yes)
 			(show_name no)
@@ -99267,7 +99267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HighSpeed_Interface:Texas_RET0040A_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
 			(at 642.62 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -103968,7 +103968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2.3x7.8mm"
+		(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2x7.5mm"
 			(at 704.85 257.81 0)
 			(hide yes)
 			(show_name no)
