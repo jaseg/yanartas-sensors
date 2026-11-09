@@ -15631,12 +15631,6 @@
 		(uuid "852fbf72-e096-4787-89b0-e4e67fc4a28e")
 	)
 	(junction
-		(at 83.82 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85402051-2026-4f14-bbcb-7f6bad086639")
-	)
-	(junction
 		(at 595.63 306.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17745,16 +17739,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 177.8) (xy 83.82 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1962abdc-f252-4f51-814e-034ac98d6225")
-	)
-	(wire
-		(pts
 			(xy 595.63 283.21) (xy 595.63 290.83)
 		)
 		(stroke
@@ -17772,16 +17756,6 @@
 			(type default)
 		)
 		(uuid "1b582558-2671-438b-b267-43eb30068711")
-	)
-	(wire
-		(pts
-			(xy 83.82 177.8) (xy 83.82 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d292a0f-a69d-42df-a1d9-a7d4492abc0d")
 	)
 	(wire
 		(pts
@@ -17952,6 +17926,16 @@
 			(type default)
 		)
 		(uuid "23950b63-ab07-4a77-87e1-1ec6cfaaa64f")
+	)
+	(wire
+		(pts
+			(xy 81.28 177.8) (xy 101.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a7a5bb-dcad-4593-a6cd-75f9db7d8ba8")
 	)
 	(wire
 		(pts
@@ -19513,7 +19497,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 170.18) (xy 88.9 170.18)
+			(xy 81.28 170.18) (xy 101.6 170.18)
 		)
 		(stroke
 			(width 0)
@@ -21303,7 +21287,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 180.34) (xy 83.82 177.8)
+			(xy 83.82 172.72) (xy 83.82 180.34)
 		)
 		(stroke
 			(width 0)
@@ -22076,7 +22060,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 175.26) (xy 88.9 175.26)
+			(xy 81.28 175.26) (xy 101.6 175.26)
 		)
 		(stroke
 			(width 0)
@@ -23769,12 +23753,12 @@
 		(uuid "274834ab-4919-4ce2-9002-45566adb6615")
 	)
 	(label "~{OUT_ACT}"
-		(at 88.9 177.8 0)
+		(at 101.6 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "277b15a7-fcd2-43c5-bc76-a8db7c7034b4")
 	)
@@ -23919,12 +23903,12 @@
 		(uuid "405155c6-9bcb-4187-82c1-74f7302d3bca")
 	)
 	(label "HOST_HOPI"
-		(at 88.9 203.2 0)
+		(at 101.6 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "42e0b3a4-6750-454a-bc1b-2a78b1a1a56d")
 	)
@@ -24179,12 +24163,12 @@
 		(uuid "74d2b2c2-a2ce-4364-bb38-60ec7875426d")
 	)
 	(label "HOST_ALM"
-		(at 88.9 182.88 0)
+		(at 101.6 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7a6d1403-3080-41d4-b59c-f2744cfb556d")
 	)
@@ -24219,12 +24203,12 @@
 		(uuid "8468c4c8-c0c5-4aac-a5ff-11ff1490e2bf")
 	)
 	(label "~{OUT_ALARM}"
-		(at 88.9 175.26 0)
+		(at 101.6 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "866ea660-2be3-4823-9ae9-630fdc2cbe7b")
 	)
@@ -24269,12 +24253,12 @@
 		(uuid "8f586ded-c57b-4dda-86c9-549896aaf683")
 	)
 	(label "HOST_RX"
-		(at 88.9 195.58 0)
+		(at 101.6 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9084c829-e88c-4018-a5ac-5fa0994dff11")
 	)
@@ -24349,12 +24333,12 @@
 		(uuid "9998ba81-afb7-4e24-b53f-4a6840485d06")
 	)
 	(label "HOST_SCK"
-		(at 88.9 208.28 0)
+		(at 101.6 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9aa94a08-60cf-4840-b3a6-9f5f8916a073")
 	)
@@ -24409,12 +24393,12 @@
 		(uuid "a9349734-8d4e-4f11-bd56-ad5f8d4f7250")
 	)
 	(label "~{OUT_SECURE}"
-		(at 88.9 170.18 0)
+		(at 101.6 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a9cf84bd-1351-4e33-8f2a-bf3f2ed16e7a")
 	)
@@ -24439,12 +24423,12 @@
 		(uuid "acbebd37-300b-4424-bfcb-c7e69573bf4c")
 	)
 	(label "HOST_nCS"
-		(at 88.9 200.66 0)
+		(at 101.6 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "af3addb2-3a61-4f5e-9ecf-204f6b29a19b")
 	)
@@ -24569,12 +24553,12 @@
 		(uuid "c267cd12-3f1b-4a92-b38f-d00c81786d7c")
 	)
 	(label "HOST_ALMn"
-		(at 88.9 185.42 0)
+		(at 101.6 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c36d71c1-65e7-4ad7-9320-2476301c507c")
 	)
@@ -24609,12 +24593,12 @@
 		(uuid "c7c96e78-7323-4683-b4f6-4271220f043b")
 	)
 	(label "HOST_HIPO"
-		(at 88.9 210.82 0)
+		(at 101.6 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c9cb29bd-4c9d-421e-8ede-30c43ebe5cd9")
 	)
@@ -24629,12 +24613,12 @@
 		(uuid "d0ce52dd-0f88-4aae-9833-46c6f9bdb273")
 	)
 	(label "HOST_TX"
-		(at 88.9 193.04 0)
+		(at 101.6 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d25b8445-d95a-4c34-8253-32c8859cf94c")
 	)
