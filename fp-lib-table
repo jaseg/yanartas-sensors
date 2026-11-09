@@ -8,4 +8,5 @@
 	(lib (name "ashen-logo") (type "KiCad") (uri "${KIPRJMOD}/ashen-logo.pretty") (options "") (descr ""))
 	(lib (name "ashen-logo-text") (type "KiCad") (uri "${KIPRJMOD}/ashen-logo-text.pretty") (options "") (descr ""))
 	(lib (name "Connector_Wuerth_WR_WST") (type "KiCad") (uri "${KIPRJMOD}/Connector_Wuerth_WR_WST.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/footprints.pretty") (options "") (descr ""))
 )
