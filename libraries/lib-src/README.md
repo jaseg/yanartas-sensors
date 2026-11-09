@@ -1,8 +1,8 @@
 # Library sources
 
 `kicad-footprint-generator_yanartas_custom.yaml` holds the package definitions for the
-footprints in `HighSpeed_Interface/HighSpeed_Interface.pretty`,
-`Gowin_FPGA_KiCad/Gowin_FPGA.pretty` and `Gowin_FPGA_KiCad/Power_Management.pretty`.
+footprints in `libraries/HighSpeed_Interface/HighSpeed_Interface.pretty`,
+`libraries/Gowin_FPGA_KiCad/Gowin_FPGA.pretty` and `libraries/Gowin_FPGA_KiCad/Power_Management.pretty`.
 Every value is transcribed from the manufacturer drawing named in `size_source`.
 
 To regenerate (footprints and STEP models) with the official KiCad generator
@@ -16,8 +16,8 @@ To regenerate (footprints and STEP models) with the official KiCad generator
         --output-dir-footprints out --output-dir-models out
 
 The generated model paths point at `${KICAD10_3DMODEL_DIR}/yanartas_generated.3dshapes/`;
-they were rewritten to `${KIPRJMOD}/../<lib dir>/<lib>.3dshapes/` so the board projects in
-the subdirectories find them.
+they were rewritten to `${KIPRJMOD}/../libraries/<lib dir>/<lib>.3dshapes/` so the board projects in
+`power/` and `sensing/` find them.
 
 TI RET0040A (TMUXHS4446) uses the stock KiCad footprint
 `Package_DFN_QFN:Texas_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm` instead.

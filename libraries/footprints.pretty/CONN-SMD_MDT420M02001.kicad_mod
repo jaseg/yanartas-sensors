@@ -686,7 +686,7 @@
 			(uuid "7095e6af-9892-4c44-89a6-bf2e392a1ba8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../MDT420M02001.3dshapes/CONN-SMD_MDT420M02001.step"
+		(model "${KIPRJMOD}/../libraries/MDT420M02001.3dshapes/CONN-SMD_MDT420M02001.step"
 			(offset
 				(xyz 0 0 0)
 			)
