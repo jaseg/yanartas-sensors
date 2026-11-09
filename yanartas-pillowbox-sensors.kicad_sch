@@ -25514,6 +25514,12 @@
 		(uuid "38ae8d1d-430c-4f03-880b-6f66d8f2ccfc")
 	)
 	(junction
+		(at 542.29 575.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3914a082-aee0-4139-ad2b-8d9b13c5a03d")
+	)
+	(junction
 		(at 73.66 505.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -25638,12 +25644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4644efdb-60be-4219-939d-c8f82e4918c4")
-	)
-	(junction
-		(at 466.09 556.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "468b9559-2dff-4542-b63d-aa5b53f595e7")
 	)
 	(junction
 		(at 466.09 237.49)
@@ -25824,12 +25824,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56a2f0f6-94b7-43fa-8505-d99d307ed441")
-	)
-	(junction
-		(at 542.29 556.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "56e33831-66e4-49fa-9977-3fe1e70481b5")
 	)
 	(junction
 		(at 543.56 457.2)
@@ -26462,6 +26456,12 @@
 		(uuid "a27814ff-74b6-4a54-bffd-ffbbe3acda16")
 	)
 	(junction
+		(at 466.09 556.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a27f11ed-b034-4d12-90fa-988ac1d80b76")
+	)
+	(junction
 		(at 642.62 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -26976,12 +26976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9078ae0-7a47-4d7f-8259-de5f61babbd1")
-	)
-	(junction
-		(at 436.88 513.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea473b6c-1bc1-4689-991a-c384fd9b5674")
 	)
 	(junction
 		(at 266.7 96.52)
@@ -28966,7 +28960,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 575.31) (xy 557.53 575.31)
+			(xy 535.94 575.31) (xy 542.29 575.31)
 		)
 		(stroke
 			(width 0)
@@ -29967,6 +29961,16 @@
 	)
 	(wire
 		(pts
+			(xy 542.29 563.88) (xy 542.29 567.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112bee23-7fab-4a32-8c64-ed7be9a05214")
+	)
+	(wire
+		(pts
 			(xy 276.86 105.41) (xy 276.86 104.14)
 		)
 		(stroke
@@ -30224,6 +30228,16 @@
 			(type default)
 		)
 		(uuid "15c68d24-86b0-43a2-93ee-a8990b1d3b17")
+	)
+	(wire
+		(pts
+			(xy 542.29 572.77) (xy 542.29 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cd8a32-20ad-4193-b1e8-f9eb43e06f6d")
 	)
 	(wire
 		(pts
@@ -31119,7 +31133,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 513.08) (xy 469.9 513.08)
+			(xy 374.65 513.08) (xy 469.9 513.08)
 		)
 		(stroke
 			(width 0)
@@ -31146,16 +31160,6 @@
 			(type default)
 		)
 		(uuid "244ad174-ad96-4a4e-b166-c6fa0039ebb1")
-	)
-	(wire
-		(pts
-			(xy 542.29 562.61) (xy 542.29 563.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246fae88-aa98-4e1d-9c03-bf8d324719d2")
 	)
 	(wire
 		(pts
@@ -32019,6 +32023,16 @@
 		)
 		(uuid "3383cc99-4fa2-48a2-9829-46708081bede")
 	)
+	(wire
+		(pts
+			(xy 466.09 553.72) (xy 466.09 556.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33990dc4-de2a-4fcc-ac07-09129ce8a281")
+	)
 	(bus
 		(pts
 			(xy 558.8 365.76) (xy 558.8 339.09)
@@ -32160,6 +32174,16 @@
 			(type default)
 		)
 		(uuid "35d863b6-2a09-4655-9789-e822a2c2228e")
+	)
+	(wire
+		(pts
+			(xy 542.29 575.31) (xy 557.53 575.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3610a6c6-d262-474d-a8bd-113ea2944f5c")
 	)
 	(wire
 		(pts
@@ -35108,16 +35132,6 @@
 		)
 		(uuid "5eb49d9f-1fbb-4f67-95f7-8ad1114e0c23")
 	)
-	(wire
-		(pts
-			(xy 466.09 537.21) (xy 466.09 556.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f1abacf-4d6c-403b-b803-b4d1451f23c8")
-	)
 	(bus
 		(pts
 			(xy 568.96 391.16) (xy 568.96 412.75)
@@ -36193,16 +36207,6 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 513.08) (xy 436.88 537.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7003a0a5-66f2-48c1-af31-c87782c617eb")
-	)
-	(wire
-		(pts
 			(xy 189.23 304.8) (xy 207.01 304.8)
 		)
 		(stroke
@@ -36892,16 +36896,6 @@
 			(type default)
 		)
 		(uuid "7bfd530f-9bba-4b01-9b6c-2ef314946c7f")
-	)
-	(wire
-		(pts
-			(xy 542.29 556.26) (xy 542.29 557.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c203dc7-a9bb-41c0-9d6d-45329fe12027")
 	)
 	(wire
 		(pts
@@ -37787,16 +37781,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 556.26) (xy 557.53 556.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "880abe3c-694f-401c-a936-29436788443b")
-	)
-	(wire
-		(pts
 			(xy 542.29 411.48) (xy 538.48 411.48)
 		)
 		(stroke
@@ -37847,7 +37831,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 556.26) (xy 542.29 556.26)
+			(xy 535.94 556.26) (xy 557.53 556.26)
 		)
 		(stroke
 			(width 0)
@@ -39241,16 +39225,6 @@
 			(type default)
 		)
 		(uuid "9e9413a5-02f4-4386-b016-a3fa92ff5792")
-	)
-	(wire
-		(pts
-			(xy 436.88 537.21) (xy 466.09 537.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea515e3-bb7a-41f6-893a-d834d3233cc6")
 	)
 	(wire
 		(pts
@@ -45061,16 +45035,6 @@
 			(type default)
 		)
 		(uuid "f9884291-9c3f-4e2a-a0b7-bf4d0f3fac60")
-	)
-	(wire
-		(pts
-			(xy 374.65 513.08) (xy 436.88 513.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f98cc668-65af-4f95-bf35-37ac69f717a8")
 	)
 	(wire
 		(pts
@@ -59856,115 +59820,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 742.95 543.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fbe0b78-c8d2-4db6-833a-120b0ef7cecc")
-		(property "Reference" "H4"
-			(at 745.49 542.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M2.5"
-			(at 745.49 544.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 742.95 543.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 742.95 543.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 742.95 543.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "mass" "0mg"
-			(at 742.95 543.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 742.95 543.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "NA"
-			(at 742.95 543.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "yanartas-pillowbox-sensors"
-				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 360.68 306.07 0)
 		(mirror x)
@@ -72528,6 +72383,84 @@
 			(project "yanartas-pillowbox-sensors"
 				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
 					(reference "R138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 466.09 553.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b9214de-c368-4730-be30-bc4257a2fd18")
+		(property "Reference" "#PWR0163"
+			(at 466.09 557.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 466.09 548.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 466.09 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 466.09 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 466.09 553.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92a0f0ac-01c4-46c7-aefc-d2145f3b6892")
+		)
+		(instances
+			(project "yanartas-pillowbox-sensors"
+				(path "/674ed4d1-dd9a-4005-87ec-46c2a5667653"
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -85418,7 +85351,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 542.29 560.07 0)
+		(at 542.29 570.23 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -85429,7 +85362,7 @@
 		(dnp no)
 		(uuid "99ec1855-28ad-4fbc-97cb-95bf1e7633e7")
 		(property "Reference" "C113"
-			(at 546.354 558.546 0)
+			(at 546.354 568.706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85439,7 +85372,7 @@
 			)
 		)
 		(property "Value" "4n7"
-			(at 548.894 561.086 0)
+			(at 548.894 571.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85449,7 +85382,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 542.29 560.07 0)
+			(at 542.29 570.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85460,7 +85393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 542.29 560.07 0)
+			(at 542.29 570.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85471,7 +85404,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 542.29 549.91 0)
+			(at 542.29 560.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85482,7 +85415,7 @@
 			)
 		)
 		(property "LCSC" "C1538"
-			(at 542.29 560.07 0)
+			(at 542.29 570.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -85493,7 +85426,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 542.29 560.07 0)
+			(at 542.29 570.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -93000,7 +92933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 732.79 543.56 0)
 			(hide yes)
 			(show_name no)
@@ -98921,8 +98854,8 @@
 				)
 			)
 		)
-		(property "Value" "1nf Class Y"
-			(at 120.65 493.776 0)
+		(property "Value" "1n"
+			(at 116.078 493.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98931,7 +98864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.03 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -98964,7 +98897,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C361361"
+		(property "LCSC" "C1588"
 			(at 113.03 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -102991,7 +102924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 722.63 543.56 0)
 			(hide yes)
 			(show_name no)
@@ -104605,7 +104538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
 			(at 753.11 543.56 0)
 			(hide yes)
 			(show_name no)
