@@ -729,7 +729,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2.3x7.8mm"
+		(property "Footprint" "HighSpeed_Interface:Diodes_ZL52_TQFN-52-1EP_3.5x9mm_P0.4mm_EP2x7.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2268,7 +2268,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "HighSpeed_Interface:Texas_RET0040A_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
+		(property "Footprint" "Package_DFN_QFN:Texas_WQFN-40-1EP_3x6mm_P0.4mm_EP1.7x4.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -30,7 +30,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Gowin_FPGA:Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm"
+		(property "Footprint" "Gowin_FPGA:Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

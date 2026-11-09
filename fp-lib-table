@@ -9,4 +9,7 @@
 	(lib (name "ashen-logo-text") (type "KiCad") (uri "${KIPRJMOD}/ashen-logo-text.pretty") (options "") (descr ""))
 	(lib (name "Connector_Wuerth_WR_WST") (type "KiCad") (uri "${KIPRJMOD}/Connector_Wuerth_WR_WST.pretty") (options "") (descr ""))
 	(lib (name "footprints") (type "KiCad") (uri "${KIPRJMOD}/footprints.pretty") (options "") (descr ""))
+	(lib (name "HighSpeed_Interface") (type "KiCad") (uri "${KIPRJMOD}/HighSpeed_Interface/HighSpeed_Interface.pretty") (options "") (descr ""))
+	(lib (name "Gowin_FPGA") (type "KiCad") (uri "${KIPRJMOD}/Gowin_FPGA_KiCad/Gowin_FPGA.pretty") (options "") (descr ""))
+	(lib (name "Power_Management") (type "KiCad") (uri "${KIPRJMOD}/Gowin_FPGA_KiCad/Power_Management.pretty") (options "") (descr ""))
 )
