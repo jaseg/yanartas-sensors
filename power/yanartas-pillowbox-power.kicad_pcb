@@ -5564,7 +5564,7 @@
 			(uuid "398369bb-41be-434c-aa76-980242ba6ec0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/../libraries/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz -0.5 21.5 0)
 			)
@@ -5575,7 +5575,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${KIPRJMOD}/../CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/../libraries/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz 33.5 21.5 0)
 			)
@@ -10049,7 +10049,7 @@
 			(uuid "a02f1d74-80fb-494a-b5d1-6e732017df4f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/../libraries/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz -0.5 21.5 0)
 			)
@@ -10060,7 +10060,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${KIPRJMOD}/../CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/../libraries/CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz 33.5 21.5 0)
 			)
@@ -38525,7 +38525,7 @@
 			(uuid "acf8f467-4606-4a60-9c5b-1008ecef853b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../MDT420M02001.3dshapes/CONN-SMD_MDT420M02001.step"
+		(model "${KIPRJMOD}/../libraries/MDT420M02001.3dshapes/CONN-SMD_MDT420M02001.step"
 			(offset
 				(xyz 0 0 0)
 			)

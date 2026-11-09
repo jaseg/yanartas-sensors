@@ -677,7 +677,7 @@
 		(zone_connect 2)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../Gowin_FPGA_KiCad/Gowin_FPGA.3dshapes/Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm.step"
+	(model "${KIPRJMOD}/../libraries/Gowin_FPGA_KiCad/Gowin_FPGA.3dshapes/Gowin_QN48_QFN-48-1EP_6x6mm_P0.4mm_EP4.3x4.3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
