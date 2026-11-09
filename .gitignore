@@ -2,3 +2,4 @@
 *.bak
 .history
 _restore_backup*
+libraries/logos
