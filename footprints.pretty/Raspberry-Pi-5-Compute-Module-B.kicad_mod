@@ -856,7 +856,7 @@
 			(uuid "73b67610-f85b-46e3-bccf-ee0e6ab2dc7d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/../CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz -0.5 21.5 0)
 			)
@@ -867,7 +867,7 @@
 				(xyz 0 0 90)
 			)
 		)
-		(model "${KIPRJMOD}/CM5IO.3dshapes/10164227-1001a1rlf.stp"
+		(model "${KIPRJMOD}/../CM5IO.3dshapes/10164227-1001a1rlf.stp"
 			(offset
 				(xyz 33.5 21.5 0)
 			)
