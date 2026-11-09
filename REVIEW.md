@@ -10,7 +10,7 @@ Branch `claude/review-split-pcbs`. One commit per topic:
 | `912a24a` | Wrong LCSC numbers fixed, U13 footprint fixed |
 | `64542f1` | Split into `power/` and `sensing/` projects with an FH12 FFC interconnect |
 
-The combined project in the repository root has not been changed and is kept for reference. You can delete it once you are happy with the split.
+The combined project (`yanartas-pillowbox-sensors.kicad_*`) and its root-level `fp-lib-table`/`sym-lib-table` have been removed from the repository root; they remain in the git history (last version in `64542f1`).
 
 ## 1. Board split
 
@@ -84,7 +84,7 @@ The mounting pins (MP) are on GND.
    - the parts that were missing from the PCB because their libraries weren't registered (U2, U3, U4, U5, U7, U9, U10, U12);
    - the J4 pinout change from commit 8d78104, which never reached the PCB.
 2. Draw the sensing board outline.
-3. The logo footprint libraries listed in `fp-lib-table` are not in the repository: PTF-Logo, PTF-Logo-Mask, nlnet-logo, ngi-zero-commons-logo, BMFTR-Logo, ashen-logo and ashen-logo-text. Please add them.
+3. The logo footprint libraries listed in `power/fp-lib-table` and `sensing/fp-lib-table` are not in the repository: PTF-Logo, PTF-Logo-Mask, nlnet-logo, ngi-zero-commons-logo, BMFTR-Logo, ashen-logo and ashen-logo-text. Please add them.
 4. The 3D model folders `CM5IO.3dshapes/` and `MDT420M02001.3dshapes/` are referenced but not in the repository either. The paths now point to the repository root.
 
 ## 2. Schematic review
