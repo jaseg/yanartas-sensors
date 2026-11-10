@@ -245,7 +245,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -639,6 +639,63 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.107,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diff_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.107,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.143,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diff_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.143,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.107,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diffpair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.107,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -647,7 +704,152 @@
     "net_chain_classes": {},
     "net_chain_netclasses": {},
     "net_colors": {},
-    "netclass_assignments": {},
+    "netclass_assignments": {
+      "/ETH_A+": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_A-": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_B+": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_B-": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_C+": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_C-": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_D+": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/ETH_D-": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/PCIE_CLK_N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/PCIE_CLK_P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/PCIE_RX_N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/PCIE_RX_P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/PCIE_TX_N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/PCIE_TX_P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/TRD0N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD0P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD1N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD1P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD2N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD2P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD3N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TRD3P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/USB3_D1N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_D1P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_D2N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_D2P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSRX1N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSRX1P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSRX2N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSRX2P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSTX1N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSTX1P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSTX2N": [
+        "diff_90",
+        "diffpair"
+      ],
+      "/USB3_SSTX2P": [
+        "diff_90",
+        "diffpair"
+      ],
+      "Net-(Module2-USB2_N)": [
+        "diff_90",
+        "diffpair"
+      ],
+      "Net-(Module2-USB2_P)": [
+        "diff_90",
+        "diffpair"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {

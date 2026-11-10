@@ -41955,7 +41955,20 @@
 			(justify left bottom)
 		)
 		(uuid "cab6d482-c1b5-4b43-bc61-d7a3aa7e25d7")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 196.279 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 196.279 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -41981,7 +41994,20 @@
 			(justify left bottom)
 		)
 		(uuid "d34e758e-48ac-4874-918e-2637aab96fcd")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 203.898 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 203.898 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -42007,7 +42033,20 @@
 			(justify left bottom)
 		)
 		(uuid "42c13177-ea1e-4b16-846a-d18e6bc35ba9")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 196.279 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 196.279 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -42033,7 +42072,20 @@
 			(justify left bottom)
 		)
 		(uuid "d4a4de45-7188-4194-8606-d5a9625d25aa")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 229.298 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 229.298 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -42059,7 +42111,20 @@
 			(justify left bottom)
 		)
 		(uuid "7f21ae8b-3d6b-4827-b7c2-ae1a6e56326b")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 189.928 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 189.928 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -42085,7 +42150,20 @@
 			(justify left bottom)
 		)
 		(uuid "7fd2ab11-8ff9-48a3-a9dd-522c96e3f252")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 197.548 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 197.548 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -42111,7 +42189,20 @@
 			(justify left bottom)
 		)
 		(uuid "c3cb9607-be41-4116-94f0-8b5d16fade0c")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 189.928 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 189.928 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -42137,7 +42228,20 @@
 			(justify left bottom)
 		)
 		(uuid "eff6aa9f-717e-4536-a7d8-4695e2ec5631")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 259.779 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 259.779 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -42163,7 +42267,20 @@
 			(justify left bottom)
 		)
 		(uuid "d84ac3d0-7425-459f-afbd-3963a5e773d1")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 102.298 330.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 102.298 330.2 0)
 			(hide yes)
 			(show_name no)
@@ -42189,7 +42306,20 @@
 			(justify left bottom)
 		)
 		(uuid "36ebaa24-fc49-478c-81c0-1b0a86c48959")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 111.188 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 111.188 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -42215,7 +42345,20 @@
 			(justify left bottom)
 		)
 		(uuid "528b2f4f-34b9-430a-8ac2-c6c7aae1112d")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 104.838 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 104.838 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -42241,7 +42384,20 @@
 			(justify left bottom)
 		)
 		(uuid "3a570655-37aa-4506-8883-314d4fd11414")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 112.459 340.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 112.459 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -42267,7 +42423,20 @@
 			(justify left bottom)
 		)
 		(uuid "261472f2-6dc7-4a29-99c5-e537038e6142")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 113.728 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 113.728 350.52 0)
 			(hide yes)
 			(show_name no)
@@ -42293,7 +42462,20 @@
 			(justify left bottom)
 		)
 		(uuid "ec690a36-d985-482e-8424-4744f2eb8fae")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 102.298 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 102.298 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -42319,7 +42501,20 @@
 			(justify left bottom)
 		)
 		(uuid "7463898a-7bd6-4ab1-aa95-6dd5facaa63f")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 113.728 360.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 113.728 360.68 0)
 			(hide yes)
 			(show_name no)
@@ -42345,7 +42540,20 @@
 			(justify left bottom)
 		)
 		(uuid "742452cc-be6a-4f11-a1bf-9d041a2a4001")
-		(property "Netclass" "diffpair,diff_100"
+		(property "Netclass" "diffpair"
+			(at 106.108 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_100"
 			(at 106.108 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -42371,7 +42579,20 @@
 			(justify left bottom)
 		)
 		(uuid "3414f182-f5f3-4eda-be97-172690faade4")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 710.628 250.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 710.628 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -42397,7 +42618,20 @@
 			(justify left bottom)
 		)
 		(uuid "f78b6b9d-af01-4fda-97ed-1d0a462badb1")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 713.168 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 713.168 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -42423,7 +42657,20 @@
 			(justify left bottom)
 		)
 		(uuid "f1279aaf-2a03-4042-bfdf-a6ec9114a8a7")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 710.628 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 710.628 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -42449,7 +42696,20 @@
 			(justify left bottom)
 		)
 		(uuid "de84a35b-41b3-4f27-98f0-60a48c586242")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 713.168 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 713.168 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -42475,7 +42735,20 @@
 			(justify left bottom)
 		)
 		(uuid "e4feeabd-caea-4493-bb8d-34e2c523ebcb")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 711.899 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 711.899 316.23 0)
 			(hide yes)
 			(show_name no)
@@ -42501,7 +42774,20 @@
 			(justify left bottom)
 		)
 		(uuid "1e9dc2e6-9957-4b80-8178-14fc7d2c8f9a")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 709.358 318.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 709.358 318.77 0)
 			(hide yes)
 			(show_name no)
@@ -42527,7 +42813,20 @@
 			(justify left bottom)
 		)
 		(uuid "2bc5fdf9-da43-4ce8-8601-33109e428407")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 664.909 314.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 664.909 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -42553,7 +42852,20 @@
 			(justify left bottom)
 		)
 		(uuid "64036aaa-b297-4203-8778-c252514e430d")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 663.639 317.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 663.639 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -42579,7 +42891,20 @@
 			(justify left bottom)
 		)
 		(uuid "069dabaa-6733-4963-a432-b29b6cdfb5bd")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 593.788 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 593.788 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -42605,7 +42930,20 @@
 			(justify left bottom)
 		)
 		(uuid "ae20cf51-afcf-49a7-a3bb-aa8ed3ce4951")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 595.058 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 595.058 279.4 0)
 			(hide yes)
 			(show_name no)
@@ -42631,7 +42969,20 @@
 			(justify left bottom)
 		)
 		(uuid "c9e1d62d-3738-4097-abff-87b93e0b0837")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 663.639 309.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 663.639 309.88 0)
 			(hide yes)
 			(show_name no)
@@ -42657,7 +43008,20 @@
 			(justify left bottom)
 		)
 		(uuid "ad3f2c4b-0cfd-46a4-b24c-88bce1b161fa")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 663.639 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 663.639 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -42683,7 +43047,20 @@
 			(justify left bottom)
 		)
 		(uuid "7af3311d-c86c-477a-abd3-258e088e4b35")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 595.058 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 595.058 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -42709,7 +43086,20 @@
 			(justify left bottom)
 		)
 		(uuid "a9e58148-ac7a-4ae6-8128-71541465f062")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 595.058 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 595.058 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -42735,7 +43125,20 @@
 			(justify left bottom)
 		)
 		(uuid "4f2efbe4-7b76-4a70-b19d-7387eb499ad2")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 663.639 325.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 663.639 325.12 0)
 			(hide yes)
 			(show_name no)
@@ -42761,7 +43164,20 @@
 			(justify left bottom)
 		)
 		(uuid "4c79affd-ea51-4933-ae09-32df1e123073")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 663.639 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 663.639 322.58 0)
 			(hide yes)
 			(show_name no)
@@ -42787,7 +43203,20 @@
 			(justify left bottom)
 		)
 		(uuid "1114f362-8e9a-4621-9738-2f58994ef39e")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 595.058 287.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 595.058 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -42813,7 +43242,20 @@
 			(justify left bottom)
 		)
 		(uuid "7712c575-3f5e-44ef-82ac-3ebacf764029")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 595.058 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 595.058 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -42839,7 +43281,20 @@
 			(justify left bottom)
 		)
 		(uuid "17892bd9-cad9-43b9-ab3a-e18b4514c99d")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 663.639 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 663.639 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -42865,7 +43320,20 @@
 			(justify left bottom)
 		)
 		(uuid "ccd01396-017d-40bd-86f1-fce7a240f1e1")
-		(property "Netclass" "diffpair,diff_90"
+		(property "Netclass" "diffpair"
+			(at 664.909 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Netclass" "diff_90"
 			(at 664.909 238.76 0)
 			(hide yes)
 			(show_name no)

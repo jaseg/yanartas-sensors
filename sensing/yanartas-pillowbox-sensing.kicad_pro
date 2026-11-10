@@ -245,7 +245,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -639,6 +639,63 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.107,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diff_100",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.107,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.143,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diff_90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.143,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.107,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "diffpair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.107,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -648,436 +705,588 @@
     "net_chain_netclasses": {},
     "net_colors": {},
     "netclass_assignments": {
-      "/RET_100N": [
-        "diffpair"
-      ],
-      "/RET_100P": [
-        "diffpair"
-      ],
-      "/RET_101N": [
-        "diffpair"
-      ],
-      "/RET_101P": [
-        "diffpair"
-      ],
-      "/RET_102N": [
-        "diffpair"
-      ],
-      "/RET_102P": [
-        "diffpair"
-      ],
       "/RET_10N": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_10P": [
-        "diffpair"
-      ],
-      "/RET_110N": [
-        "diffpair"
-      ],
-      "/RET_110P": [
-        "diffpair"
-      ],
-      "/RET_111N": [
-        "diffpair"
-      ],
-      "/RET_111P": [
-        "diffpair"
-      ],
-      "/RET_112N": [
-        "diffpair"
-      ],
-      "/RET_112P": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_11N": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_11P": [
-        "diffpair"
-      ],
-      "/RET_200N": [
-        "diffpair"
-      ],
-      "/RET_200P": [
-        "diffpair"
-      ],
-      "/RET_201N": [
-        "diffpair"
-      ],
-      "/RET_201P": [
-        "diffpair"
-      ],
-      "/RET_202N": [
-        "diffpair"
-      ],
-      "/RET_202P": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_20N": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_20P": [
-        "diffpair"
-      ],
-      "/RET_210N": [
-        "diffpair"
-      ],
-      "/RET_210P": [
-        "diffpair"
-      ],
-      "/RET_211N": [
-        "diffpair"
-      ],
-      "/RET_211P": [
-        "diffpair"
-      ],
-      "/RET_212N": [
-        "diffpair"
-      ],
-      "/RET_212P": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_21N": [
+        "diff_100",
         "diffpair"
       ],
       "/RET_21P": [
+        "diff_100",
         "diffpair"
       ],
-      "/SEND_100N": [
+      "/RET_100N": [
+        "diff_100",
         "diffpair"
       ],
-      "/SEND_100P": [
+      "/RET_100P": [
+        "diff_100",
         "diffpair"
       ],
-      "/SEND_101N": [
+      "/RET_101N": [
+        "diff_100",
         "diffpair"
       ],
-      "/SEND_101P": [
+      "/RET_101P": [
+        "diff_100",
         "diffpair"
       ],
-      "/SEND_102N": [
+      "/RET_102N": [
+        "diff_100",
         "diffpair"
       ],
-      "/SEND_102P": [
+      "/RET_102P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_110N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_110P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_111N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_111P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_112N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_112P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_200N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_200P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_201N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_201P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_202N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_202P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_210N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_210P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_211N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_211P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_212N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/RET_212P": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_10N": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_10P": [
-        "diffpair"
-      ],
-      "/SEND_110N": [
-        "diffpair"
-      ],
-      "/SEND_110P": [
-        "diffpair"
-      ],
-      "/SEND_111N": [
-        "diffpair"
-      ],
-      "/SEND_111P": [
-        "diffpair"
-      ],
-      "/SEND_112N": [
-        "diffpair"
-      ],
-      "/SEND_112P": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_11N": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_11P": [
-        "diffpair"
-      ],
-      "/SEND_200N": [
-        "diffpair"
-      ],
-      "/SEND_200P": [
-        "diffpair"
-      ],
-      "/SEND_201N": [
-        "diffpair"
-      ],
-      "/SEND_201P": [
-        "diffpair"
-      ],
-      "/SEND_202N": [
-        "diffpair"
-      ],
-      "/SEND_202P": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_20N": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_20P": [
-        "diffpair"
-      ],
-      "/SEND_210N": [
-        "diffpair"
-      ],
-      "/SEND_210P": [
-        "diffpair"
-      ],
-      "/SEND_211N": [
-        "diffpair"
-      ],
-      "/SEND_211P": [
-        "diffpair"
-      ],
-      "/SEND_212N": [
-        "diffpair"
-      ],
-      "/SEND_212P": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_21N": [
+        "diff_100",
         "diffpair"
       ],
       "/SEND_21P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_100N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_100P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_101N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_101P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_102N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_102P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_110N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_110P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_111N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_111P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_112N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_112P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_200N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_200P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_201N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_201P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_202N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_202P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_210N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_210P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_211N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_211P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_212N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/SEND_212P": [
+        "diff_100",
         "diffpair"
       ],
       "/SPL_HS_1N": [
+        "diff_100",
         "diffpair"
       ],
       "/SPL_HS_1P": [
+        "diff_100",
         "diffpair"
       ],
       "/SPL_HS_2N": [
+        "diff_100",
         "diffpair"
       ],
       "/SPL_HS_2P": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1N_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1N_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1N_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1N_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1N_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1P_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1P_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1P_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1P_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_1P_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2N_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2N_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2N_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2N_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2N_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2P_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2P_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2P_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2P_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STIM_2P_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1N_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1N_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1N_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1N_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1N_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1P_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1P_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1P_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1P_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_1P_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2N_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2N_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2N_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2N_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2N_RC": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2P_A": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2P_B": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2P_C": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2P_R": [
+        "diff_100",
         "diffpair"
       ],
       "/STROBE_2P_RC": [
-        "diffpair"
-      ],
-      "/TDR_10N": [
-        "diffpair"
-      ],
-      "/TDR_10P": [
-        "diffpair"
-      ],
-      "/TDR_11N": [
-        "diffpair"
-      ],
-      "/TDR_11P": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_1N": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_1N_CPL": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_1P": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_1P_CPL": [
-        "diffpair"
-      ],
-      "/TDR_20N": [
-        "diffpair"
-      ],
-      "/TDR_20P": [
-        "diffpair"
-      ],
-      "/TDR_21N": [
-        "diffpair"
-      ],
-      "/TDR_21P": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_2N": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_2N_CPL": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_2P": [
+        "diff_100",
         "diffpair"
       ],
       "/TDR_2P_CPL": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_10N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_10P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_11N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_11P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_20N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_20P": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_21N": [
+        "diff_100",
+        "diffpair"
+      ],
+      "/TDR_21P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_10N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_10P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_11N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_11P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_20N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_20P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_21N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_S_21P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_10N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_10P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_11N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_11P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_20N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_20P": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_21N": [
+        "diff_100",
         "diffpair"
       ],
       "/TERM_Z_21P": [
+        "diff_100",
         "diffpair"
       ],
-      "Net-(R10-Pad2)": [
+      "/USB_DM": [
+        "diff_90",
         "diffpair"
       ],
-      "Net-(R100-Pad1)": [
-        "diffpair"
-      ],
-      "Net-(R101-Pad1)": [
+      "/USB_DP": [
+        "diff_90",
         "diffpair"
       ],
       "Net-(R7-Pad2)": [
+        "diff_100",
+        "diffpair"
+      ],
+      "Net-(R10-Pad2)": [
+        "diff_100",
+        "diffpair"
+      ],
+      "Net-(R100-Pad1)": [
+        "diff_100",
+        "diffpair"
+      ],
+      "Net-(R101-Pad1)": [
+        "diff_100",
         "diffpair"
       ]
     },
