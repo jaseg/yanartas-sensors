@@ -1,0 +1,13 @@
+(version 1)
+
+# Coupled diff pairs are routed at a 0.127 mm gap (0.142/0.127 -> 100 ohm, 0.2/0.127 -> 90 ohm on JLC04121H-7628).
+# The net-class clearance (0.2 mm) keeps applying to everything else; this only relaxes P-to-N of the same pair.
+(rule "diffpair_gap"
+	(condition "A.isCoupledDiffPair()")
+	(constraint clearance (min 0.12mm)))
+
+# Keep same-layer pours 0.6 mm from diff-pair copper (outer layers only, inner reference planes stay solid).
+(rule "diffpair_pour_clearance"
+	(layer outer)
+	(condition "A.Type == 'Zone' && (B.hasNetclass('diff_100') || B.hasNetclass('diff_90') || B.hasNetclass('diffpair'))")
+	(constraint clearance (min 0.6mm)))
