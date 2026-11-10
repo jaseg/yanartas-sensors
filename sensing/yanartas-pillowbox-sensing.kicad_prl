@@ -96,16 +96,16 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": true,
-      "images": true,
+      "graphics": false,
+      "images": false,
       "labels": true,
       "lockedItems": false,
-      "otherItems": true,
-      "pins": true,
-      "ruleAreas": true,
-      "symbols": true,
-      "text": true,
-      "wires": true
+      "otherItems": false,
+      "pins": false,
+      "ruleAreas": false,
+      "symbols": false,
+      "text": false,
+      "wires": false
     }
   }
 }
